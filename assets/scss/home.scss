@@ -1,0 +1,14 @@
+#home-container{
+    display: flex;
+
+    #feed-post{
+        width: 70%;
+        padding: 1vw;
+    }
+
+    #user-friends{
+        width: 30%;
+        padding: 1vw;
+        border-left: 1px solid palevioletred;
+    }
+}

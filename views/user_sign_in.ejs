@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/css/user_sign_in.css">
+
+
+<div id="sign-in-page">
+    <h1 style="font-family: candara;text-align: center;">Sign In</h1>
+
+    <form style="text-align: center;margin-top: 8vh;" action="/users/create-session" method="POST">
+        <i style="font-size: 22px;" class="fas fa-envelope"></i>&nbsp&nbsp&nbsp
+        <input style="font-size: 20px;border: none; border-bottom: 1px solid black; font-family: candara;" type="email" name="email" placeholder="Email"  required>
+        <br>
+        <br>
+        <i style="font-size: 20px;" class="fas fa-unlock"></i>&nbsp&nbsp&nbsp
+        <input style="font-size: 20px; border: none; border-bottom: 1px solid black; font-family: candara;" type="password" name="password" placeholder="Password"  required>
+        <br>
+        <br>
+        <br>
+        <div id="sign-in-button">
+        <input class="btn button1" id="sign-in-button" type="submit" value="Sign In">
+        </div>
+    </form>
+</div>
+
+<p>
+    <a href="/users/auth/google">Googel Sign In/Sign Up</a>
+</p>

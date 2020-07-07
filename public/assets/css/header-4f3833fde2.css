@@ -1,0 +1,11 @@
+header {
+  height: 5vw;
+  display: flex; }
+  header #header-name {
+    width: 88%;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw; }
+  header #link-to-pages {
+    width: 12%;
+    margin-top: -1.5vh; }

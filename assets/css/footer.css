@@ -1,0 +1,7 @@
+footer {
+  background: khaki; }
+  footer div {
+    display: inline-flex; }
+    footer div #link-to-pages {
+      margin-left: 170vh;
+      margin-top: -4vw; }
